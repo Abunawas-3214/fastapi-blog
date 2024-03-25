@@ -1,0 +1,416 @@
+[
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "DbPost",
+        "importPath": "database.models",
+        "description": "database.models",
+        "isExtraImport": true,
+        "detail": "database.models",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_post",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = 'sqlite:///./blog_api.db'\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "database.db_post",
+        "description": "database.db_post",
+        "peekOfCode": "def create(db: Session, request: PostBase):\n    new_post = DbPost(\n        title=request.title,\n        content=request.content,\n        creator=request.creator,\n        image_url=request.image_url,\n        timestamp=datetime.datetime.now()\n    )\n    db.add(new_post)\n    db.commit()",
+        "detail": "database.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "kind": 2,
+        "importPath": "database.db_post",
+        "description": "database.db_post",
+        "peekOfCode": "def get_all(db: Session):\n    return db.query(DbPost).all()\ndef delete(db: Session, id: int):\n    post = db.query(DbPost).filter(DbPost.id == id).first()\n    if not post:\n         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f\"Post with {id} not found!\")\n    db.delete(post)\n    db.commit()\n    return 'ok'",
+        "detail": "database.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "database.db_post",
+        "description": "database.db_post",
+        "peekOfCode": "def delete(db: Session, id: int):\n    post = db.query(DbPost).filter(DbPost.id == id).first()\n    if not post:\n         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f\"Post with {id} not found!\")\n    db.delete(post)\n    db.commit()\n    return 'ok'",
+        "detail": "database.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "DbPost",
+        "kind": 6,
+        "importPath": "database.models",
+        "description": "database.models",
+        "peekOfCode": "class DbPost(Base):\n    __tablename__ = \"post\"\n    id = Column(Integer, primary_key=True, index=True)\n    image_url = Column(String)\n    title = Column(String)\n    content = Column(String)\n    creator = Column(String)\n    timestamp = Column(DateTime)",
+        "detail": "database.models",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "routers.post",
+        "description": "routers.post",
+        "peekOfCode": "def create(request: PostBase, db: Session = Depends(get_db)):\n    return db_post.create(db, request)\n@router.get(\"/\")\ndef all(db: Session = Depends(get_db)):\n    return db_post.get_all(db)\n@router.delete(\"/{id}\")\ndef delete(id: int, db: Session = Depends(get_db)):\n    return db_post.delete(db, id)\n@router.post(\"/image\")\ndef create_image(image: UploadFile, db: Session = Depends(get_db)):",
+        "detail": "routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "all",
+        "kind": 2,
+        "importPath": "routers.post",
+        "description": "routers.post",
+        "peekOfCode": "def all(db: Session = Depends(get_db)):\n    return db_post.get_all(db)\n@router.delete(\"/{id}\")\ndef delete(id: int, db: Session = Depends(get_db)):\n    return db_post.delete(db, id)\n@router.post(\"/image\")\ndef create_image(image: UploadFile, db: Session = Depends(get_db)):\n    random_string = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))\n    new = f'_{random_string}.'\n    filename = new.join(image.filename.rsplit('.', 1))",
+        "detail": "routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "routers.post",
+        "description": "routers.post",
+        "peekOfCode": "def delete(id: int, db: Session = Depends(get_db)):\n    return db_post.delete(db, id)\n@router.post(\"/image\")\ndef create_image(image: UploadFile, db: Session = Depends(get_db)):\n    random_string = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))\n    new = f'_{random_string}.'\n    filename = new.join(image.filename.rsplit('.', 1))\n    path = f'./images/{filename}'\n    with open(path, 'w+b') as buffer:\n        shutil.copyfileobj(image.file, buffer)",
+        "detail": "routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "create_image",
+        "kind": 2,
+        "importPath": "routers.post",
+        "description": "routers.post",
+        "peekOfCode": "def create_image(image: UploadFile, db: Session = Depends(get_db)):\n    random_string = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))\n    new = f'_{random_string}.'\n    filename = new.join(image.filename.rsplit('.', 1))\n    path = f'./images/{filename}'\n    with open(path, 'w+b') as buffer:\n        shutil.copyfileobj(image.file, buffer)\n    return {'filename': path}",
+        "detail": "routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.post",
+        "description": "routers.post",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/post\",\n    tags=[\"post\"]  \n)\n@router.post(\"/\")\ndef create(request: PostBase, db: Session = Depends(get_db)):\n    return db_post.create(db, request)\n@router.get(\"/\")\ndef all(db: Session = Depends(get_db)):\n    return db_post.get_all(db)",
+        "detail": "routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "kind": 6,
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "peekOfCode": "class PostBase(BaseModel):\n    title: str\n    content: str\n    image_url: str\n    creator: str\nclass PostDisplay(BaseModel):\n    id: int\n    title: str\n    content: str\n    image_url: str",
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostDisplay",
+        "kind": 6,
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "peekOfCode": "class PostDisplay(BaseModel):\n    id: int\n    title: str\n    content: str\n    image_url: str\n    creator: str\n    timestamp: datetime",
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def hw():\n    return {\"message\": \"Hello World\"}\napp.include_router(post.router)\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=['http://localhost:3000'],\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\ndef hw():\n    return {\"message\": \"Hello World\"}\napp.include_router(post.router)\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=['http://localhost:3000'],",
+        "detail": "main",
+        "documentation": {}
+    }
+]
