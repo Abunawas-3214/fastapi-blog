@@ -3,7 +3,7 @@ from sqlalchemy.orm.session import Session
 import datetime
 from database.models import DbPost
 from fastapi import HTTPException, status
-
+import os
 
 def create(db: Session, request: PostBase):
     new_post = DbPost(
@@ -25,6 +25,12 @@ def delete(db: Session, id: int):
     post = db.query(DbPost).filter(DbPost.id == id).first()
     if not post:
          raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Post with {id} not found!")
+    
+    image_folder = 'images'
+    filename = post.image_url
+    
+    os.remove(filename)
+    
     db.delete(post)
     db.commit()
     return 'ok'

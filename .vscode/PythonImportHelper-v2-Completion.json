@@ -161,6 +161,15 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "importPath": "database.database",
         "description": "database.database",
@@ -310,7 +319,7 @@
         "kind": 2,
         "importPath": "database.db_post",
         "description": "database.db_post",
-        "peekOfCode": "def get_all(db: Session):\n    return db.query(DbPost).all()\ndef delete(db: Session, id: int):\n    post = db.query(DbPost).filter(DbPost.id == id).first()\n    if not post:\n         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f\"Post with {id} not found!\")\n    db.delete(post)\n    db.commit()\n    return 'ok'",
+        "peekOfCode": "def get_all(db: Session):\n    return db.query(DbPost).all()\ndef delete(db: Session, id: int):\n    post = db.query(DbPost).filter(DbPost.id == id).first()\n    if not post:\n         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f\"Post with {id} not found!\")\n    image_folder = 'images'\n    filename = post.image_url\n    os.remove(filename)\n    db.delete(post)",
         "detail": "database.db_post",
         "documentation": {}
     },
@@ -319,7 +328,7 @@
         "kind": 2,
         "importPath": "database.db_post",
         "description": "database.db_post",
-        "peekOfCode": "def delete(db: Session, id: int):\n    post = db.query(DbPost).filter(DbPost.id == id).first()\n    if not post:\n         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f\"Post with {id} not found!\")\n    db.delete(post)\n    db.commit()\n    return 'ok'",
+        "peekOfCode": "def delete(db: Session, id: int):\n    post = db.query(DbPost).filter(DbPost.id == id).first()\n    if not post:\n         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f\"Post with {id} not found!\")\n    image_folder = 'images'\n    filename = post.image_url\n    os.remove(filename)\n    db.delete(post)\n    db.commit()\n    return 'ok'",
         "detail": "database.db_post",
         "documentation": {}
     },
@@ -400,7 +409,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def hw():\n    return {\"message\": \"Hello World\"}\napp.include_router(post.router)\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=['http://localhost:3000'],\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "peekOfCode": "def hw():\n    return {\"message\": \"Hello World\"}\napp.include_router(post.router)\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=['http://localhost:5173'],\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
         "detail": "main",
         "documentation": {}
     },
@@ -409,7 +418,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\ndef hw():\n    return {\"message\": \"Hello World\"}\napp.include_router(post.router)\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=['http://localhost:3000'],",
+        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\ndef hw():\n    return {\"message\": \"Hello World\"}\napp.include_router(post.router)\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=['http://localhost:5173'],",
         "detail": "main",
         "documentation": {}
     }
